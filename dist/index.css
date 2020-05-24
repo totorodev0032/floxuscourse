@@ -473,10 +473,11 @@
     }
     
     .coursetools_section_heading p{
-        font-size: 2.5em;
+        font-size: 2em;
         font-family: monospace;
         font-weight: 800;
         text-align: center;
+        color: rgb(70, 68, 68);
     
     }
 
@@ -616,6 +617,7 @@
     font-size: 2em;
     font-family: monospace;
     font-weight: 800;
+    color: rgb(70, 68, 68);
 }
 
 .benefit_section .benefit_section_content{
@@ -664,14 +666,15 @@
     margin-top: 1em;
     justify-content: center;
     align-items: center;
+    
 }
 
 .project_section .project_section_heading p{
-    font-size: 3em;
+    font-size: 2em;
     font-family: monospace;
     font-weight: 800;
     margin-bottom: 1em;
-    margin-top: 0.5em;
+    margin-top: 0.5em;color: rgb(70, 68, 68);
 }
 
 .project_section .project_section_content{
@@ -712,7 +715,7 @@
 .project_section .project_section_footer{
     display: flex;
     width: 100%;
-    height: 10vh;
+    height: auto;
     justify-content: center;
     align-items: center;
 }
@@ -728,6 +731,8 @@
     font-family: monospace;
     font-size: 1.5em;
     font-weight: 500;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
 }
 
 .project_section .project_section_footer .btn_download:hover{
